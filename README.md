@@ -9,4 +9,4 @@ In this project application of stephen grider course about creating a twitch clo
 ## React Router
 
 How React Router Works ?
-![How React Router Works](/images/react-router-works.jpg)
+![How React Router Works](blob/master/images/react-router-works.JPG)
