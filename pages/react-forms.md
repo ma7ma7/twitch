@@ -19,3 +19,31 @@ export default combineReducers({
   form: formReducer,
 });
 ```
+
+**On the Component we want to use Redux form on**
+
+```javascript
+import { Field, reduxForm} from "redux-form";
+
+class CreateStream extends React.Component {
+  renderInput({ input }) {
+    return <input {...input} />
+  }
+
+  render() {
+    return {
+      <form>
+        <Field name="title" component={this.renderInput}>
+      </form>
+    }
+  }
+}
+
+export default reduxForm({
+  form: 'streamCreate'
+})(componentName)
+```
+
+The `<Field />` Component itself is don't know what is a text field or a checkbox ... it's only here to help redux implement and make redux easy to use with react here the `component` keyword came to define the inputs using functionor a component
+
+The `{...input}` this syntax here is recommended instead of pass the value and the onChange and ler and so one the field it self need all properties came from the value object because of redux needs so we pass this special JSX destruction
