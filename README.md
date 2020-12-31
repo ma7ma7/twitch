@@ -6,4 +6,5 @@ In this project application of stephen grider course about creating a twitch clo
 - A npm package for streams API
 - OBS for straming
 
-1 - [React Router](/pages/react-router.md)
+1. [React Router](/pages/react-router.md)
+2. [React Forms](/pages/react-forms.md)
