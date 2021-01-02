@@ -16,6 +16,24 @@
       "description": "edit me please",
       "userId": "104868611575812822918",
       "id": 3
+    },
+    {
+      "title": "A Stream ",
+      "description": "Created stream after refactoring",
+      "userId": "104868611575812822918",
+      "id": 4
+    },
+    {
+      "title": "ANother amazing stream",
+      "description": "Hello",
+      "userId": "104868611575812822918",
+      "id": 5
+    },
+    {
+      "title": "Anothe",
+      "description": "Another",
+      "userId": "104868611575812822918",
+      "id": 6
     }
   ]
 }
