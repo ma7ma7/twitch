@@ -10,6 +10,12 @@
       "description": "another stream .!!!",
       "userId": "109388618572908929512",
       "id": 2
+    },
+    {
+      "title": "Testing edit",
+      "description": "edit me please",
+      "userId": "104868611575812822918",
+      "id": 3
     }
   ]
 }
