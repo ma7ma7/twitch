@@ -8,3 +8,4 @@ In this project application of stephen grider course about creating a twitch clo
 
 1. [React Router](/pages/react-router.md)
 2. [React Forms](/pages/react-forms.md)
+3. [React Portals](/pages/react-portals.md)
